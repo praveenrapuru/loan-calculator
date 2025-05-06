@@ -27,6 +27,9 @@ R = Monthly interest rate (annual rate / 12 / 100)
 
 N = Loan duration in months
 
+---
+
+
 ## Assignment Checklist
 
  EMI Calculation using formula
@@ -44,6 +47,7 @@ N = Loan duration in months
  Error & 404 Pages
 
  Deployment
+----
 
 ## Deployment
 
