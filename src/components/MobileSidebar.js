@@ -16,8 +16,6 @@ export default function MobileSidebar({ isSidebarOpen, setIsSidebarOpen, activeL
         >
           ×
         </button>
-
-        {/* Sidebar Links */}
         <div className="flex flex-col space-y-4 mt-10">
           <Link
             to="/"
@@ -65,8 +63,6 @@ export default function MobileSidebar({ isSidebarOpen, setIsSidebarOpen, activeL
           </Link>
         </div>
       </div>
-
-      {/* Backdrop */}
       <div
         className={`fixed top-0 left-0 w-full h-full bg-black opacity-50 z-40 md:hidden ${
           isSidebarOpen ? "block" : "hidden"
