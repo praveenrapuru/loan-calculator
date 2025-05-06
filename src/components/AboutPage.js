@@ -16,7 +16,7 @@ export default function AboutPage() {
         <li>Real-time EMI calculation based on your input.</li>
         <li>Amortization schedule generation over the loan tenure.</li>
         <li>Live exchange rate conversion using ExchangeRate API.</li>
-        <li>Responsive design built with React and Tailwind CSS.</li>
+        <li>Responsive design built with Tailwind CSS.</li>
         <li>Reset functionality to start over easily.</li>
       </ul>
       <p className="text-gray-700 dark:text-gray-300 mt-4">
