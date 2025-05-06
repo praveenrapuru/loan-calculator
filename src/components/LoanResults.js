@@ -1,5 +1,4 @@
 import React from "react";
-import EmiDisplay from "./EmiDisplay";
 
 function LoanResults({  schedule, currency, rate }) {
   if (!Array.isArray(schedule) || schedule.length === 0) {

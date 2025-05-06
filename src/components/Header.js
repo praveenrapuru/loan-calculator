@@ -12,9 +12,9 @@ export default function Header({ darkMode, setDarkMode }) {
 
   return (
     <header className={`bg-blue-600 dark:bg-gray-800 text-white shadow-md`}>
-      <div className="flex items-center justify-between px-4 py-4">
+      <div className="flex items-center justify-between px-4 py-4 md:px-6 md:py-6">
         <div className="text-xl font-light">Loan Calculator</div>
-        <div className="flex items-center text-sm font-light space-x-10">
+        <div className="flex items-center text-sm font-light space-x-10 sm:space-x-6 md:space-x-8 lg:space-x-10">
           <Link to="/" 
                 className={`${linkClass} ${activeLink === "home" ? (darkMode ? "bg-gray-600" : "bg-blue-700") : ""}`}
                 onClick={() => handleClick("home")}>
