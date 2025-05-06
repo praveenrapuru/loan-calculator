@@ -29,7 +29,7 @@ function App() {
           <Route path="/" element={<LoanForm />} />
           <Route path="/exchange-rates" element={<ExchangeRatesPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="*" element={<ErrorPage />} />
+          <Route path="/error" element={<ErrorPage />} />
         </Routes>
       </div>
     </Router>
