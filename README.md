@@ -28,10 +28,7 @@ R = Monthly interest rate (annual rate / 12 / 100)
 N = Loan duration in months
 
 ---
-
-
-## Assignment Checklist
-
+Assignment Checklist
  EMI Calculation using formula
 
  Context API for global state
@@ -44,13 +41,13 @@ N = Loan duration in months
 
  Responsive UI
 
- Error & 404 Pages
+ Error 
 
  Deployment
-----
 
-## Deployment
 
+
+Deployment
 Deployed on GitHub Pages:
-link :- https://praveenrapuru.github.io/loan-calculator/
+https://praveenrapuru.github.io/loan-calculator/
 
