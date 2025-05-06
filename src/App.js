@@ -26,7 +26,7 @@ function App() {
       <div className={`min-h-screen ${darkMode ? "bg-black text-white" : "bg-white text-black"}`}>
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
         <Routes>
-          <Route path="/" element={<LoanForm />} />
+          <Route path="*" element={<LoanForm />} />
           <Route path="/exchange-rates" element={<ExchangeRatesPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/error" element={<ErrorPage />} />
